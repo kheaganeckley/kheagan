@@ -39,7 +39,7 @@ export default ({ description }) => {
   return (
     <Helmet>
       <html lang="en" amp />
-      <title>{`${title} | ${description}`}</title>
+      <title>{`${ title} | ${description}`}</title>
       <meta name="description" content={SEOdescription} />
       <meta name="keywords" content={SEOkeywords} />
       <meta name="author" content={author} />
