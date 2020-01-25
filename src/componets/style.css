@@ -1,0 +1,21 @@
+body{
+margin: 0%;
+margin-top: 0%;
+font-family: 'Old Standard TT', serif;
+}
+
+
+::-webkit-scrollbar {
+    width: 25px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 5px;
+  }
