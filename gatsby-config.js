@@ -46,7 +46,7 @@ module.exports = {
         sitemap: 'https://kheagan.com/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
-    }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
