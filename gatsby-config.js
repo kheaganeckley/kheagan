@@ -38,20 +38,15 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-playground`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
     {
-      resolve: `gatsby-plugin-sitemap`,
+      resolve: 'gatsby-plugin-robots-txt',
       options: {
-        sitemapSize: 5000,
-      },
-    },
-    // {
-    //   resolve: 'gatsby-plugin-robots-txt',
-    //   options: {
-    //     host: 'kheagandays.now.sh/',
-    //     sitemap: 'kheagandays.now.sh/sitemap.xml/',
-    //     policy: [{ userAgent: '*', allow: '/' }]
-    //   }
-    // },
+        host: 'https://kheagan.now.sh',
+        sitemap: 'https://kheagan.now.sh/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    }
     {
       resolve: `gatsby-source-filesystem`,
       options: {
