@@ -38,7 +38,8 @@ export default ({ description }) => {
 
   return (
     <Helmet>
-      <html lang="en" amp />
+      <html lang="en" amp/>
+      
       <title>{`${ title} | ${description}`}</title>
       <meta name="google-site-verification" content="cT6nNe806tOhdG4WNiZcRiwz48HFUHG2yN52LmqjKds" />
       <meta name="description" content={SEOdescription} />
