@@ -78,6 +78,7 @@ export default ({
       <Messenger slug={slug} type={type} />
 
   
+  
       <div
         sx={{
           width: '100%',
