@@ -5,6 +5,7 @@ import Card from '../componets/card'
 import FlexWrap from '../componets/flexWrap'
 import AniHeader from '../componets/ANiHeader'
 import Seo from '../componets/Seo'
+import BackButton from '../componets/backbutton'
 
 export const query = graphql`
   query MyQueryType($type: String) {
@@ -55,5 +56,7 @@ export default ({
         ))}
       </FlexWrap>
     </div>
+    <BackButton to = 'Browse'/>
+
   </Layout>
 )

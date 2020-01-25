@@ -16,7 +16,7 @@ module.exports = {
     About:
       'This is a little blog about some of my holidays. I wanted to keep these memories in a accessable place thats easy to share with family, friends, and other blogers. I hope you enjoy!',
     twitterUsername: 'kheagan',
-    image: './cave.jpg',
+    image: '/cave.jpg',
     twitter: 'hello',
     facebook: 'hello',
     types: [
@@ -32,12 +32,6 @@ module.exports = {
     ],
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-155301000-1',
-      },
-    },
     `gatsby-plugin-theme-ui`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
@@ -76,9 +70,6 @@ module.exports = {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Lobster Two`
-          },
           {
             family: 'Old Standard TT' // serif
           },

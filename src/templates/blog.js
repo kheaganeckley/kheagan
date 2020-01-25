@@ -7,6 +7,7 @@ import Messenger from '../componets/messenger/index'
 import AniHeader from '../componets/ANiHeader'
 import Seo from '../componets/Seo'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
+import BackButton from '../componets/backbutton'
 
 export const query = graphql`
   query MyQueryTwo($slug: String) {
@@ -76,6 +77,7 @@ export default ({
 
       <Messenger slug={slug} type={type} />
 
+  
       <div
         sx={{
           width: '100%',
@@ -84,6 +86,9 @@ export default ({
           alignItems: 'center',
         }}
       >
+            <BackButton to = 'Browse'/> 
+      <BackButton to = {type}/>
+
         <Img
           sx={{
             width: '100%',
@@ -93,5 +98,6 @@ export default ({
         />
       </div>
     </div>
+
   </Layout>
 )
