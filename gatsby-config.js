@@ -10,7 +10,7 @@ module.exports = {
       'This is a blog about some of my (kheagan eckley) holidays. Its got posts about the beach, the kruger, and much more. I hope you enjoy ',
     SEOkeywords: 'kruger',
     themeColor: 'black',
-    siteUrl: 'https://kheagan.now.sh/',
+    siteUrl: 'https://kheagan.com/',
     emailForFormSpree: 'kheagan.eckley@gmail.com',
     author: `@kheagan`,
     About:
@@ -42,8 +42,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://kheagan.now.sh',
-        sitemap: 'https://kheagan.now.sh/sitemap.xml',
+        host: 'https://kheagan.com',
+        sitemap: 'https://kheagan.com/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     }
