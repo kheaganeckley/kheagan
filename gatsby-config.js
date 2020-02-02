@@ -79,7 +79,7 @@ module.exports = {
         start_url: `/`,
         background_color: `black`,
         theme_color: `black`,
-        display: `minimal-ui`,
+        display: `standalone`,
         icon: `src/images/kheaganIcon512.png`, // This path is relative to the root of the site.
       },
     },
